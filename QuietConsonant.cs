@@ -14,7 +14,8 @@ namespace QuietConsonant
         {
             UtauPlugin utauPlugin = new UtauPlugin(args[0]);
             utauPlugin.Input();
-            foreach(Note note in utauPlugin.note)
+
+            foreach (Note note in utauPlugin.note)
             {
                 string noteLyric = note.GetLyric();
 

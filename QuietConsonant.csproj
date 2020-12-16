@@ -42,7 +42,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="dummy.cs" />
     <Compile Include="QuietConsonant.cs" />
   </ItemGroup>
   <ItemGroup>
